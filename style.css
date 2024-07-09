@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* header section design starts here */
+.header_section-main{
+    width: 1280px;
+    height: 670px;
+    margin: 0 auto;
+    background-color: rgb(255, 248, 243);
+    display: flex;  
+    gap: 40px;    
+
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.left_image_container{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 108px;
+    height: 619px;
+    
+}
+
+.left_image_container img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.header_right_side{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    
+}
+
+.header_right_side nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.header_right_side nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    margin-right: 200px;
+}
+
+
+.header_right_side nav li{
+    list-style-type: none;
+}
+
+
+.header_right_side nav li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.content_and_profile_pic_container{
+    height: 70%;
+    display: flex;
+    gap: 110px;
+    justify-content: space-evenly;
+    
+    /* align-items: center; */
+    
+    
+}
+
+.content_container{
+    width: 468px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.content_container h3{
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.content_container h1{
+    font-size: 50px;
+}
+
+.content_container p{
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.profile_pic_container{
+    width: 467px;
+    height: 541px;
+    transform: translateY(-55px);
+   
+    
+}
+
+.profile_pic_container img{
+    width: 100%;
+    height: 100%;
+}
+
+span{
+    color: rgb(253, 110, 10);
+}
+
+.btn-1{
+    background-color: rgb(253, 110, 10);
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.btn-2{
+    border: 1px solid rgb(253, 110, 10);
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(253, 110, 10);
+    background: none;
+    cursor: pointer;
+}
+
+/* header section design ends here */
